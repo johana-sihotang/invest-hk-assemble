@@ -7,13 +7,14 @@
 
 //Molecules
 @import "./molecules/button";
-@import "./molecules/breadcrumb";
+@import "molecules/breadcrumb";
 @import "molecules/humburgerMenu";
 
 //Components
 @import "./components/card";
 @import "./components/carousell";
 @import "./components/article";
+@import "./components/contact_us";
 
 //Partials
 @import "./partials/footer";

@@ -1,0 +1,149 @@
+.container{
+  position: relative;
+  max-width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;}
+
+.justiy-content-center{
+  justify-content: center;
+}
+
+.col-lg-11 {
+  flex: 0 0 auto;
+  width: 75.66666667%;}
+
+.row{
+  display: flex;
+}
+
+.contactForm__heading{
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contactUs__office {
+  position: relative;
+  overflow: hidden;
+}
+
+.contactForm__heading--title {
+  text-transform: uppercase;
+  color: rgb(220, 40, 30);
+  margin-bottom: 6px;
+}
+
+.contactUs__office--item {
+  position: relative;
+  padding-left: 42px;
+  margin-bottom: 24px;
+}
+
+.contactUs__office--icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 3px;
+  left: 0px;
+  color: rgb(220, 40, 30);
+}
+
+.contactUs__form {
+  padding-top: 48px;
+}
+
+.contactForm__group {
+  margin-bottom: 24px;
+}
+
+.label-field {
+  font-weight: 700;
+  color: rgb(220, 40, 30);
+  margin-bottom: 6px;
+}
+.input-wrapper {
+  position: relative;
+}
+
+.contactForm__remarks {
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+.contactForm__checkbox {
+  margin: 48px 0px;
+}
+
+.checkbox-control {
+  position: relative;
+  padding-left: 36px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.input-control {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(187, 189, 190);
+  border-image: initial;
+  padding: 12px;
+}
+
+.checkbox-control__input {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 7px;
+  left: 0px;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.contactForm__action {
+  text-align: center;
+}
+
+
+.button {
+  position: relative;
+  display: inline-block;
+  font-family: Outfit, sans-serif;
+  background-color: rgb(220, 40, 30);
+  color: rgb(255, 255, 255);
+  vertical-align: middle;
+  user-select: none;
+  text-align: center;
+  font-size: 28px;
+  line-height: 155%;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 12px 40px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.checkbox-control__checkmark {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  left: 0px;
+  top: 7px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(187, 189, 190);
+  border-image: initial;
+  border-radius: 4px;
+}
