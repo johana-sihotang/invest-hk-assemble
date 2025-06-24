@@ -1,0 +1,11 @@
+{{#with cards}}
+<div class="card">
+    {{#each this}}
+        <div class="card__container-{{color}}">
+            <h3>{{upperText title}}</h3>
+            <p>{{newlineToBr description}}</p>
+            <i class="{{icon}}"></i>
+        </div>
+    {{/each}}
+</div>
+{{/with}}

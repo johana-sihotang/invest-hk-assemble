@@ -1,0 +1,68 @@
+{
+  "title": "Driving Innovation, Optimising Investment Portfolios",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "link": "https://ec2-13-213-205-176.ap-southeast-1.compute.amazonaws.com/en/"
+    },
+    {
+      "title": "Case Studies",
+      "link": "https://ec2-13-213-205-176.ap-southeast-1.compute.amazonaws.com/en/case-studies/"
+    },
+    {
+      "title": "Driving Innovation, Optimising Investment Portfolios",
+      "link": ""
+    }
+  ],
+  "tags": [
+    {
+      "label": "Financial Services",
+      "class": "tag tag-red"
+    },
+    {
+      "label": "From Mainland China",
+      "class": "tag tag-black"
+    }
+  ],
+  "imageContent": [
+    {
+      "image": "content1.jpg",
+      "caption": "Pasu Yip, Co-founder and CEO, Seeds Capital"
+    }
+  ],
+  "contentPage": [
+    {
+      "blackQuote": "Our proprietary systems integrate cutting-edge technology with strategic investments, capitalising on Hong Kong’s robust financial and technological infrastructure, rapid data flow, and its status as an international financial centre.",
+      "author": "Pasu Yip Co-founder and CEO, Seeds Capital",
+      "subtitle": "Capitalising on Hong Kong’s status as a premier financial hub, Seeds Capital customises investment portfolios for high-net-worth clients through its self-developed systems.",
+      "captionSubtitle": "As an international metropolis and financial centre, the core of Hong Kong’s success lies in its diversity and spirit of innovation. Asset management firm Seeds Capital, with funding supported by Mainland Chinese investors, has actively developed its external asset management business and independently developed systems. By combining data, analysis, and forecasting models, Seeds Capital tailors investment portfolios for its clients, with a commitment to reducing investment risks and achieving stable asset growth.",
+      "subContent": [
+        {
+          "title": "Advanced Financial Infrastructure and Rich Talent Pool ",
+          "content": "Established in Hong Kong in 2021, Seeds Capital leverages its extensive experience in financial services and FinTech to drive growth. Pasu Yip, Co-founder and CEO of Seeds Capital, stated, “Our proprietary systems integrate cutting-edge technology with strategic investments, capitalising on Hong Kong’s robust financial and technological infrastructure, rapid data flow, and its status as an international financial centre.”\n\n“Hong Kong has a rich pool of professionals in finance, technology, and innovation, enabling us to hire individuals who not only possess technical expertise, but also understand the unique dynamics of the financial markets. With our innovative systems, we aim to manage our clients’ assets more effectively, thereby enhancing overall societal wealth,” he added."
+        },
+        {
+          "title": "Capitalising on Hong Kong’s Role as a “Super-Connector”",
+          "content": "Seeds Capital is committed to serving high-net-worth clients in the Guangdong-Hong Kong-Macao Greater Bay Area (GBA) and across Asia, providing investment advice and investment management through external asset management models. Yip said, “As a Hong Kong-based external asset manager, we leverage Hong Kong’s strategic location and unique financial strengths to provide tailored investment solutions and attractive risk-return profiles to our clients in Hong Kong, the GBA, and the region.”\n\nRecently, Seeds Capital has collaborated with Australian-listed private fund companies and alternative investment project managers to offer clients innovative assets and real estate private equity funds. “Hong Kong not only serves as a bridge connecting the world, but has also deepened its integration into the GBA in recent years, with various industries experiencing rapid growth,” Yip said. “This creates a large customer base and potential investors. We will continue to seize opportunities by introducing quality investment assets to high-net-worth clients, further reinforcing Hong Kong’s role as a financial ‘Super-Connector’.”\n\nYip appreciated the support from InvestHK, which is crucial for Seeds Capital’s expansion. “InvestHK has provided us with valuable networking opportunities and marketing support, both of which have contributed to our growth trajectory,” he concluded."
+        }
+      ],
+      "fastFacts": "Fast Facts",
+      "items": [
+        "It is licensed and regulated by Hong Kong Securities and Futures Commission for Type 4 (advising on securities) and Type 9 (asset management) activities",
+        "In October 2024, the company was awarded the Outstanding Innovation Award by the Hong Kong Australia Business Association (Queensland Chapter)"
+      ],
+      "visitWebsite": [
+        {
+          "icon": "uil uil-upload-alt",
+          "text": "Visit Website",
+          "link": "https://seedscapital.com.hk/en/"
+        },
+        {
+          "icon": "uil uil-import",
+          "text": "Download Case Study",
+          "link": "https://ec2-13-213-205-176.ap-southeast-1.compute.amazonaws.com/media/dddon4uy/202503-seeds_capital-en.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<!-- Start navbar -->
+<div class="footer__image"><img src="{{@root.config.asset_url}}logo-section.png"></div>
+{{#with footer}}
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__container-section">
+            <div class="footer__container-section-title">
+                <h4>{{whyHongKong.title}}</h4>
+                <i class="fas fa-angle-up"></i>
+            </div>
+            <ul>
+                {{#each whyHongKong.items}}
+                    <li><a href="">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="footer__container-section">
+            <div class="footer__container-section-title">
+                <h4>{{industries.title}}</h4>
+                <i class="fas fa-angle-up"></i>
+            </div>
+            <ul>
+                {{#each industries.items}}
+                    <li><a href="">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="footer__container-section">
+            <div class="footer__container-section-wrap">
+                <div class="footer__container-section-title">
+                    <h4>{{ourClient.title}}</h4>
+                    <i class="fas fa-angle-up"></i>
+                </div>
+                <div class="footer__container-section-title">
+                    <h4>{{settingUp.title}}</h4>
+                    <i class="fas fa-angle-up"></i>
+                </div>
+                <div class="footer__container-section">
+                    <div class="footer__container-section-title">
+                        <h4>{{newsEvent.title}}</h4>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <ul>
+                        {{#each newsEvent.items}}
+                            <li><a href="">{{this}}</a></li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div class="footer__container-section-title">
+                    <h4>{{contactUs.title}}</h4>
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__container-section no-hide head-office">
+            <h4>{{headOffice.title}}</h4>
+            <ul>
+                {{#each headOffice.items}}
+                    <li>
+                        <i class="{{icon}}"></i>
+                        <p>{{newlineToBr text}}</p>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="footer__container-section wide-3">
+            <div class="footer__container-section-title">
+                <h4>{{usefulLinks.title}}</h4>
+                <i class="fas fa-angle-up"></i>
+            </div>
+            <div class="footer__container-section-link-columns">
+                {{#each (splitArray usefulLinks.items 3)}}
+                    <ul class="link-column">
+                        {{#each this}}
+                            <li><a href="#">{{this}}</a></li>
+                        {{/each}}
+                    </ul>
+                {{/each}}
+            </div>
+        </div>
+{{/with}}
+{{#with header}}
+        <div class="footer__container-section wide-2 no-hide social-media">
+            <li>
+                <div class="col-4 content-center flex-end">
+                    {{#each socialMedia}}
+                        <a href="#">
+                            <div class="header__logo">
+                                <img src="{{@root.config.asset_url}}/{{this}}" alt=""/>
+                            </div>
+                        </a>
+                    {{/each}}
+                    <a href="#" class="elips">
+                        <div class="header__logo">
+                            <span class="two-dots">••</span>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </div>
+{{/with}}
+</div>
+</footer>
+{{#with footer}}
+    <div class="footer__white col-2">
+        {{#each copyRight}}
+            <div class="footer__image">
+                {{#each image}}
+                    <img src="{{@root.config.asset_url}}/{{this}}"/>
+                {{/each}}
+            </div>
+            <div>
+                <ul class="footer__white-inline-links text-decoration-none">
+                    {{#each items}}
+                        <li><a href="#">{{this}}</a></li>
+                    {{/each}}
+                </ul>
+                <p class="">{{copyRight}}</p>
+            </div>
+        {{/each}}
+    </div>
+{{/with}}
+
+<!-- End navbar -->

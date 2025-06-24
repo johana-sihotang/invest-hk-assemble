@@ -1,0 +1,16 @@
+.breadcrumb{
+  padding: 0;
+  margin: 0;
+  background-color: $white-color;
+  display: inline;
+  .icon-after:not(:last-child)::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-size: 14px;
+    margin: 0 8px 0 10px;
+  }
+  .icon-after:not(:last-child){
+    font-weight: 800;
+  }
+}

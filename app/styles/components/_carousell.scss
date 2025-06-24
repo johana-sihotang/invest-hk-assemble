@@ -1,0 +1,122 @@
+.carousel {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  font-family: Outfit;
+  text-align: center;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    scroll-behavior: smooth;
+
+    &__section {
+      flex: 0 0 auto;
+      scroll-snap-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+      .carousel-caption {
+        font-size: 32px;
+        margin: 0;
+        padding: 0;
+        position: static;
+        color: $black-color;
+        text-align: center;
+        font-weight: 600;
+        max-width: 260px;
+        word-wrap: break-word;
+        white-space: normal;
+      }
+
+
+        &_image {
+          width: clamp(300px, 90vw, 350px);
+          height: auto;
+          aspect-ratio: 3 / 2;
+          border: 1px solid #ccc;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+
+          img {
+            width: 260px;
+            height: auto;
+          }
+        }
+      }
+
+    a:hover{
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+  &__scroll{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    padding: 40px;
+
+    h3 {
+    }
+
+    &__container {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      gap: 20px;
+      padding-bottom: 10px;
+      justify-content: flex-start;
+      scroll-behavior: smooth;
+
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+        &__section {
+
+        .carousel-caption {
+          font-size: 20px;
+        }
+          &_image {
+            width: clamp(250px, 85vw, 600px);
+            margin: 0 auto;
+
+          img {
+            width: 260px;
+            height: auto;
+          }
+        }
+      }
+    }
+    &__scroll{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__btn-scroll{
+      display: flex;
+      gap: 10px;
+      &__dot{
+        height: 10px;
+        width: auto;
+        aspect-ratio: 1/1;
+        background-color: $grey-color;
+        border-radius: 10px;
+      }
+    }
+  }
+}

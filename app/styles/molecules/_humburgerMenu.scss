@@ -1,0 +1,438 @@
+.humburger-menu {
+  gap: 10px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $white-color;
+  z-index: 999;
+  overflow-y: auto;
+  transition: all 0.3s ease-in-out;
+  font-family: Outfit;
+  padding: 10px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    position: sticky;
+    top: 0;
+    background-color: $white-color;
+    padding: 20px;
+
+    img {
+      max-width: 250px;
+      height: auto;
+    }
+
+    &-content {
+      display: flex;
+      padding: 20px;
+      align-items: center;
+      width: 100%;
+      justify-content: space-evenly;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      &__list-icon {
+        display: flex;
+        justify-content: end;
+
+        .logo-container {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+
+          a {
+            text-decoration: none;
+          }
+
+          .logo-humburger {
+            background-color: $primary-color;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            aspect-ratio: 1/1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .two-dots {
+              color: $white-color;
+              font-size: 60px;
+              text-decoration: none;
+            }
+
+            img {
+              width: 35px;
+              height: 35px;
+              object-fit: contain;
+            }
+          }
+
+        }
+      }
+
+      &__search {
+        width: 100%;
+      }
+    }
+
+
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+    i {
+      color: $primary-color;
+      font-size: 68px
+    }
+
+    .outliner-close {
+      border: 5px solid $primary-color;
+      border-radius: 50%;
+      width: 68px;
+      height: 68px;
+      aspect-ratio: 1/1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: red;
+
+      i {
+        font-size: 40px;
+      }
+
+    }
+  }
+
+  &__search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    gap: 10px;
+
+  }
+
+  &__search {
+    flex: 1;
+    height: 80px;
+    border: none;
+    padding: 0 15px;
+    font-size: 40px;
+    background-color: #eeefef;
+    color: red;
+
+    &-button {
+      width: 60px;
+      height: 60px;
+      border: solid 5px $primary-color;
+      border-radius: 50%;
+      display: flex;
+      aspect-ratio: 1/1;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      background-color: $white-color;
+
+      i {
+        color: $primary-color;
+        font-size: 40px;
+      }
+    }
+  }
+
+  &__list {
+    margin: 20px 20px;
+
+    .icon-before {
+      display: flex;
+      padding: 6px 0;
+      align-items: center;
+    }
+
+    .icon-before::before {
+      content: "\f105";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      margin-right: 8px;
+      color: $primary-color;
+      font-size: 60px;
+      color: red;
+    }
+
+    .icon-after {
+      display: inline-flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 30px;
+      padding: 6px 0;
+      flex-direction: row;
+    }
+
+    .icon-after::after {
+      content: "\f105";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      color: $primary-color;
+      margin-left: 10px;
+      font-size: 60px;
+    }
+
+    a {
+      color: $black-color;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .humburger-menu {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: $white-color;
+    z-index: 999;
+    overflow-y: auto;
+    transition: all 0.3s ease-in-out;
+    font-family: Outfit;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 5px;
+      max-width: 1000px;
+      position: sticky;
+      top: 0;
+      background-color: $white-color;
+      padding: 10px 20px;
+
+      img {
+        max-width: 122px;
+        height: auto;
+      }
+
+      &-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 20px;
+        order: 1 !important;
+
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        &__list-icon {
+          display: flex;
+          order: 1;
+
+          .logo-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            a {
+              text-decoration: none;
+            }
+
+            .logo-humburger {
+              background-color: $primary-color;
+              border-radius: 50%;
+              width: 32px;
+              height: 32px;
+              aspect-ratio: 1/1;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .two-dots {
+                color: rgb(255, 255, 255);
+                font-size: 36px;
+                text-decoration: none;
+              }
+
+              img {
+                width: 16px;
+                height: 16px;
+                object-fit: contain;
+              }
+            }
+
+          }
+        }
+
+        &__search {
+          display: flex;
+          width: 100%;
+          order: 1;
+          color: #00b3ff;
+        }
+
+        &__search.search {
+          order: 2;
+        }
+
+        &__search.icon {
+          order: 1;
+        }
+      }
+    }
+
+    &__icon {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+
+      i {
+        color: $primary-color;
+        font-size: 32px
+      }
+
+      .outliner-close {
+        border: 3px solid $primary-color;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        i {
+          font-size: 24px;
+        }
+
+      }
+    }
+
+    &__search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 1000px;
+      margin: 10px auto;
+      gap: 10px;
+      order: 2;
+    }
+
+    &__search {
+      flex: 1;
+      height: 40px;
+      border: none;
+      width: 90%;
+      max-width: 1000px;
+      padding: 0 15px;
+      font-size: 16px;
+      background-color: #eeefef;
+
+      &-button {
+        width: 32px;
+        height: 32px;
+        border: solid 3px $primary-color;
+        border-radius: 50%;
+        display: flex;
+        aspect-ratio: 1/1;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: $white-color;
+
+        i {
+          color: $primary-color;
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__list {
+      margin: 10px 20px;
+      order: 2;
+
+      .icon-before {
+        padding: 6px 0;
+        line-height: 140%;
+      }
+
+      .icon-before::before {
+        content: "\f105";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        margin-right: 8px;
+        color: $primary-color;
+        font-size: x-large;
+        line-height: 120%;
+      }
+
+      .icon-after {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 6px 0;
+      }
+
+      .icon-after::after {
+        content: "\f105";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: $primary-color;
+        margin-left: 10px;
+        font-size: x-large;
+      }
+
+      a {
+        color: $black-color;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+
+    }
+
+    &__list:nth-of-type(1) {
+      display: flex;
+      order: 1 !important;
+    }
+
+
+  }
+
+}

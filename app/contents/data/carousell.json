@@ -1,0 +1,21 @@
+{
+  "title": "You might also be interested in",
+  "content": [
+    {
+      "image": "",
+      "caption": "Google",
+      "link": "https://ec2-13-213-205-176.ap-southeast-1.compute.amazonaws.com/en/client-profiles/google/"
+
+    },
+    {
+      "image": "wavestone.webp",
+      "caption": "Wavestone HK LTD.",
+      "link": "https://ec2-13-213-205-176.ap-southeast-1.compute.amazonaws.com/en/client-profiles/wavestone-hk-ltd/"
+    },
+    {
+      "image": "foodwbenefit.jpg",
+      "caption": "Food With Benefits Limited",
+      "link": "https://ec2-13-213-205-176.ap-southeast-1.compute.amazonaws.com/en/client-profiles/food-with-benefits-limited/"
+    }
+  ]
+}

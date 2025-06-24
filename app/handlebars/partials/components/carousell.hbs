@@ -1,0 +1,32 @@
+{{#with carousell}}
+    <div class="carousel">
+        <h3 class="text-lg text-red">{{upperText title}}</h3>
+        <div class="carousel__container">
+            {{#each content}}
+                <a href="{{link}}" target="_blank">
+                    <div class="carousel__container__section">
+                        <div class="carousel__container__section_image">
+                            <img src="{{@root.config.asset_url}}{{image}}">
+                        </div>
+                        <h4 class="carousel-caption">{{caption}}</h4>
+                    </div>
+                </a>
+            {{/each}}
+        </div>
+        <div class="carousel__scroll">
+            <div class="carousel__btn-scroll">
+                <div class="carousel__btn-scroll__dot"></div>
+                <div class="carousel__btn-scroll__dot"></div>
+                <div class="carousel__btn-scroll__dot"></div>
+            </div>
+            <div class="carousel__btn-scroll">
+                <button class="humburger-menu__search-button">
+                    <i class="fas fas fa-arrow-left"></i>
+                </button>
+                <button class="humburger-menu__search-button">
+                    <i class="fas fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+{{/with}}

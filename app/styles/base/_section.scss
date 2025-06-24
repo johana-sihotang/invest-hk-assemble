@@ -1,0 +1,157 @@
+
+
+.max-width{
+    max-width: 1560px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+body.no-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section{
+    padding: $spacing-lg 0;
+}
+
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 100%;
+    padding: 0;
+}
+
+.col-2-lg{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 100%;
+    padding: 0;
+}
+
+.col-4{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 1fr;
+    max-width: 100%;
+}
+
+.row-4{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+.text-lg{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.text-medium{
+    font-size: 24px;
+}
+.text-small{
+    font-size: 20px;
+}
+.line-height-normal{
+    line-height: normal;
+}
+.text-decoration-none{
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+}
+.text-red{
+    color: $primary-color;
+}
+.gap-x-20{
+    display: flex;
+    gap: 20px;
+}
+
+.grid-center{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.content-center{
+    align-items: center;
+}
+
+.hover-underline:hover{
+    color: $primary-color;
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.scroll-to-top{
+    display: block;
+    position: fixed;
+    right: 20px;
+    z-index: 9;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: 4px solid $primary-color;
+    background-color: $white-color;
+    bottom: 40px;
+
+    i{
+        font-size: 38px;
+        color: $primary-color;
+    }
+}
+
+.margin-20{
+    margin: 20px 0;
+}
+
+@media (max-width: 1000px) {
+    .col-2{
+        grid-template-columns: 1fr;
+    }
+
+    .row-4 {
+        display: grid;
+        grid-template-columns: 10fr 1fr;
+        gap: 16px;
+    }
+
+    .col-span-2 {
+        grid-column: span 2;
+    }
+
+    .text-medium{
+        font-size: 16px;
+    }
+
+    .text-small{
+        font-size: 14px;
+    }
+
+    .text-lg{
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .scroll-to-top{
+        display: none;
+
+    }
+}

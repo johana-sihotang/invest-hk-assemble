@@ -1,0 +1,130 @@
+{
+    "footer": {
+      "whyHongKong": {
+        "title": "Why Hong Kong",
+        "items": [
+          "Business Friendly Environment",
+          "Low and Simple Tax System",
+          "Multicultural Talent Pool",
+          "Vibrant Living",
+          "Robust Connectivity",
+          "Entrepreneur Spirit"
+        ]
+      },
+      "industries": {
+        "title": "Industries",
+        "items": [
+          "Business & Professional Services",
+          "Consumer Products",
+          "Creative Industries, Sports & Entertainment",
+          "Family Office HK",
+          "Financial Services",
+          "FinTech",
+          "Innovation & Technology",
+          "Sustainability",
+          "Tourism & Hospitality",
+          "Transport & Logistics and Industrials"
+        ]
+      },
+      "usefulLinks": {
+        "title": "Useful Links",
+        "items": [
+          "The Chief Executive's 2024 Policy Address",
+          "The 2025-26 Budget",
+          "Belt and Road Initiative: Hong Kong",
+          "Companies Registry",
+          "Corruption Prevention Advisory Service",
+          "CreateHK",
+          "e-Tendering System",
+          "GovHK",
+          "Guangdong-Hong Kong-Macao Greater Bay Area",
+          "HK Cyberport",
+          "HK Science Park",
+          "HK Tourism Board",
+          "Hong Kong - Regional IP Trading Centre",
+          "HKMA - Account Opening",
+          "Hong Kong Productivity Council",
+          "Hong Kong Smart City Portal",
+          "Hong Kong Talent Engage",
+          "Hong Kong's Legal Services",
+          "Hotel Accommodation Tax",
+          "iAM Smart Safe and Swift",
+          "Invest Guangdong",
+          "Legislative Control of Cannabidiol (CBD)",
+          "MEHK",
+          "News.gov.hk",
+          "Office for Attracting Strategic Enterprises (OASES)",
+          "Smart Government Innovation Lab",
+          "SME Link",
+          "Setting up I&T business in Hong Kong",
+          "Significant Controllers Registers by Company",
+          "Talent List Hong Kong",
+          "Technology Talent Admission Scheme"
+        ]
+      },
+      "ourClient": {
+        "title": "Our Client",
+        "items": [
+
+        ]
+      },
+      "settingUp": {
+        "title": "Setting Up in Hong Kong",
+        "items": [
+
+        ]
+      },
+      "newsEvent": {
+        "title": "News & Events",
+        "items": [
+          "News",
+          "Events"
+        ]
+      },
+      "contactUs": {
+        "title": "Contact Us",
+        "items": [
+
+        ]
+      },
+      "headOffice": {
+        "title": "InvestHK Head Office",
+        "items": [
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "24/F, Fairmont House, 8 Cotton Tree Drive, Central, Hong Kong"
+          },
+          {
+            "icon": "fa-solid fa-phone-volume",
+            "text": "+852 3107 1000"
+          },
+          {
+            "icon": "fa-regular fa-envelope",
+            "text": "enq@investhk.gov.hk"
+          },
+          {
+            "icon": "fa-regular fa-clock",
+            "text": "8:45 a.m. - 12:30 p.m.\n1:30 p.m. - 6:00 p.m.\nMonday to Friday (Closed on Saturday, Sunday and public holidays)"
+          }
+        ]
+      },
+      "copyRight": [
+        {
+          "image": [
+            "hongkong_logo.jpg",
+            "hk2_logo.png"
+          ],
+          "items": [
+            "Tender / Quotation Notices",
+            "Archive",
+            "Accessibility of Government Premises, Facilities and Services",
+            "Privacy Policy",
+            "Copyright Notices & Disclaimer",
+            "Sitemap"
+          ],
+          "copyRight": "Copyright © 2025 InvestHK. All rights reserved. Last modified on {{publishedDate}}"
+        }
+      ]
+
+    }
+}

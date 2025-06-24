@@ -1,0 +1,59 @@
+{
+  "logo": "logo-25.png",
+  "socialMedia": [
+    "linkedin_logo.png",
+    "youtube_logo.png",
+    "favicon/wechat.svg"
+
+  ],
+  "humburgerMenu": [
+    {
+      "items": [
+        "Why Hong Kong",
+        "Industries",
+        "Our Clients",
+        "Setting Up In Hong Kong",
+        "News & Events",
+        "Contact Us"
+      ],
+      "quickLinks" : [
+        {
+          "title" : "About InvestHK",
+          "link" : ""
+        },
+        {
+          "title" : "Resource Center",
+          "link" : ""
+        },
+        {
+          "title" : "Careers",
+          "link" : ""
+        },
+        {
+            "title" : "FAQ",
+          "link" : ""
+        },
+        {
+          "title" : "Content in Other Languages",
+          "link" : ""
+        },
+        {
+          "title" : "FamilyOfficeHK",
+          "link" : ""
+        },
+        {
+          "title" : "FinTechHK",
+          "link" : ""
+        },
+        {
+          "title" : "New Capital Investment Entrant Scheme",
+          "link" : ""
+        },
+        {
+          "title" : "StartmeupHK",
+          "link" : ""
+        }
+      ]
+    }
+  ]
+}

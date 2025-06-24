@@ -1,0 +1,65 @@
+{{#with article}}
+    <div class="article">
+        <div class="article__container article__container--header">
+            <div class="col-2">
+                <div class="article__title">
+                    <div class="row-4">
+                        <div class="article__breadcrumb col-span-2">
+                                {{>breadcrumb}}
+                        </div>
+                        <h1>{{title}}</h1>
+                        <div class="article__tags col-span-2">
+                            {{#each tags}}
+                                {{>button  this}}
+                            {{/each}}
+                        </div>
+                        <i class="uil uil-share-alt icon-share"></i>
+                    </div>
+                </div>
+                <div class="article__tags caption">
+                    {{#each imageContent}}
+                        <img src="{{@root.config.asset_url}}{{image}}">
+                        <p>{{caption}}</p>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="article__container article__container--content">
+            {{#each contentPage}}
+                <div class="blockquote">
+                    <blockquote>
+                        <span>{{blackQuote}}</span>
+                    </blockquote>
+                </div>
+                <p class="text-small">{{author}}</p>
+                <h2 class="line-height-normal">{{subtitle}}</h2>
+                <p class="text-medium line-height-normal">{{captionSubtitle}}</p>
+                <div>
+                    {{#each subContent}}
+                        <h3 class="text-medium bold line-height-normal margin-20">{{title}}</h3>
+                        <p class="text-medium line-height-normal">{{newlineToBr content}}</p>
+                    {{/each}}
+                </div>
+                <div>
+                    <h3 class="text-lg">{{fastFacts}}</h3>
+                    <ul>
+                        {{#each items}}
+                            <li><p class="text-medium">{{this}}</p></li>
+                        {{/each}}
+                    </ul>
+
+                </div>
+                <div class="article__visit-website">
+                    {{#each visitWebsite}}
+                        <ul class="text-decoration-none">
+                            <li ><a href="{{link}}" target="_blank" class="text-red text-medium hover-underline">
+                                <i class="{{icon}}"></i>
+                                {{text}}
+                            </a></li>
+                        </ul>
+                    {{/each}}
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{/with}}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="full-screen-mobile no-js" lang="en">
+<head>
+    <title>Driving Innovation, Optimising Investment Portfolios</title>
+
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="{{content.metaDescription}}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="GENERATOR" content="MSHTML 11.00.9600.18838">
+    <meta property="og:title" content="{{content.metaTitle}}"/>
+    <meta property="og:description" content="{{content.metaDescription}}"/>
+
+
+    <!-- Fonts -->
+    <link href="/fonts/Open_Sans/open-sans.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="{{@root.config.asset_url}}invest_hk_logo_title.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--icon-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <!-- build:css styles/main.css -->
+    <link href="/styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
+</head>
+<body >
+
+<div class="max-width">
+    {{> header content=header}}
+    <main>
+        {% body %}
+    </main>
+    <button id="scrollToTopBtn" class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</div>
+
+{{> cards}}
+{{> footer footer=footer.footer}}
+<!-- build:js scripts/jquery.min.js -->
+<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/plugins.js -->
+<script type="text/javascript" src="/scripts/footer.js"></script>
+<script type="text/javascript" src="/scripts/header.js"></script>
+<script type="text/javascript" src="/scripts/humburgerMenu.js"></script>
+<script type="text/javascript" src="/scripts/carousell.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script type="text/javascript" src="/scripts/main-min.js"></script>
+<script type="text/javascript" src="/scripts/main.js"></script>
+<!-- endbuild -->
+
+
+</body>
+
+
+
+
+
+
+</html>
+

@@ -1,0 +1,41 @@
+<!-- Start navbar -->
+{{#with header}}
+    {{> humburgerMenu}}
+    <header class="header">
+        <div class="header__container">
+            <ul class="text-decoration-none col-4 content-center auto-col-4">
+                <li>
+                    <a href="#"><img src="{{@root.config.asset_url}}/{{logo}}" alt="" class="header__logo-hk"/></a>
+                </li>
+                <li class="icon-hide">
+                    <div class="col-4 content-center flex-end">
+                        {{#each socialMedia}}
+                            <a href="#">
+                                <div class="header__logo">
+                                    <img src="{{@root.config.asset_url}}/{{this}}" alt=""/>
+                                </div>
+                            </a>
+                        {{/each}}
+                        <a href="#" class="elips">
+                            <div class="header__logo">
+                                <span class="two-dots">••</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <div class="parallelogram"></div>
+                <li>
+                    <div class="logo-font-awasome flex-end" id="">
+                        <a href="#" class="icon-hide"><i class="fas fa-search"></i></a>
+                        <a href="#" class="icon-circle-outline humburger-menu-show">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+{{/with}}
+
+<!-- End navbar -->

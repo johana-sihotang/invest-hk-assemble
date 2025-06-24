@@ -1,0 +1,21 @@
+//Plugin
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Base
+@import "./base/variable";
+@import "./base/section";
+
+//Molecules
+@import "./molecules/button";
+@import "./molecules/breadcrumb";
+@import "molecules/humburgerMenu";
+
+//Components
+@import "./components/card";
+@import "./components/carousell";
+@import "./components/article";
+
+//Partials
+@import "./partials/footer";
+@import "./partials/header";
+

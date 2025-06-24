@@ -1,0 +1,58 @@
+<div class="humburger-menu">
+    <div class="humburger-menu__container">
+        <img src="{{@root.config.asset_url}}/{{logo}}" alt="">
+        <div class="humburger-menu__icon">
+            <i class="fa-solid fa-globe"></i>
+            <div class="outliner-close">
+                <i class="fa fa-close"></i>
+            </div>
+        </div>
+    </div>
+    {{#each humburgerMenu}}
+        <div class="humburger-menu__list">
+            <ul class="text-decoration-none">
+                {{#each items}}
+                    <li class="icon-before"><a href="#" class="text-lg hover-underline">{{upperText this}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+    {{/each}}
+    <div class="humburger-menu__container-content">
+        <div class="humburger-menu__container-content__search search">
+            <form action="" class="humburger-menu__search-container">
+                    <input type="text" placeholder="SEARCH" class="humburger-menu__search"/>
+                    <button class="humburger-menu__search-button">
+                        <i class="fas fas fa-arrow-right"></i>
+                    </button>
+            </form>
+        </div>
+        <ul class="humburger-menu__container-content__search icon">
+            <li class="humburger-menu__container-content__list-icon">
+                <div class="logo-container">
+                    {{#each socialMedia}}
+                        <a href="#">
+                            <div class="logo-humburger">
+                                <img src="{{@root.config.asset_url}}/{{this}}" alt=""/>
+                            </div>
+                        </a>
+                    {{/each}}
+                    <a href="#" class="elips">
+                        <div class="logo-humburger">
+                            <span class="two-dots">••</span>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    {{#each humburgerMenu}}
+        <div class="humburger-menu__list">
+            <h1 class="text-lg">QUICK LINKS</h1>
+            <ul>
+                {{#each quickLinks}}
+                    <li class="icon-after"><a href="{{link}}" class="hover-underline">{{title}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+    {{/each}}
+</div>

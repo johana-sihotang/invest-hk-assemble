@@ -1,0 +1,116 @@
+.header{
+    &__container{
+        padding: 0 100px;
+    }
+    &__logo-hk {
+        max-width: 250px;
+        height: auto;
+    }
+
+
+    &__logo {
+        background-color: $primary-color;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+        }
+    }
+
+    .parallelogram {
+        width: 85%;
+        height: 150px;
+        background-color: $primary-color;
+        transform: skew(328deg);
+        margin: 0 10px;
+        color: red;
+    }
+
+    .two-dots {
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        text-decoration: none;
+    }
+
+    .logo-font-awasome {
+        align-items: center;
+        gap: 15%;
+        font-size: 60px;
+        color: red;
+
+        .icon-circle-outline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 5px solid $primary-color;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            aspect-ratio: 1/1;
+            text-decoration: none;
+
+            i{
+                font-size: 38px;
+            }
+        }
+    }
+
+    .logo-font-awasome i {
+        color: $primary-color;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .header{
+
+        &__container {
+            padding: 0 40px;
+            max-width: 100%;
+        }
+
+        .parallelogram {
+            width: 100px;
+            height: 80px;
+            background-color: $primary-color;
+            transform: skew(328deg);
+            margin: 0 10px;
+        }
+
+        &__logo-hk {
+            max-width: 112px;
+            height: auto;
+        }
+
+        .auto-col-4{
+            display: grid;
+            grid-template-columns:  1fr auto auto ;
+            max-width: 100%;
+        }
+
+        .logo-font-awasome {
+            font-size: 16px;
+
+            .icon-circle-outline {
+                width: 30px;
+                height: 30px;
+                aspect-ratio: 1 / 1;
+                border: 3px solid $primary-color;
+
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+
+
+    }
+}
+

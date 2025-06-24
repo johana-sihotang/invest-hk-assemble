@@ -1,0 +1,30 @@
+.tag{
+  border: none;
+  border-radius: 25px;
+  padding: 12px 16px;
+  font-family: "Outfit";
+  margin: 6px 0;
+
+  p{
+    font-size: $font-xs;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: $white-color;
+  }
+  &.tag-black{
+    background-color: $black-color;
+  }
+  &.tag-red{
+    background-color: $primary-color;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tag{
+    padding: 5.5px 14px;
+    p{
+      font-size: 12px;
+    }
+  }
+}

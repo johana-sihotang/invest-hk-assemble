@@ -1,0 +1,161 @@
+.article {
+  font-family: "Outfit";
+
+  &__container {
+    &--header {
+      margin: 0 80px 50px 80px;
+    }
+
+    &--content {
+      margin: 50px 180px 50px 180px;
+
+      .blockquote{
+        blockquote{
+          font-size: 40px;
+          line-height: 140%;
+          font-weight: 400;
+
+          span::after{
+            content: "”";
+            color: $primary-color;
+            font-size: 100px;
+            position: relative;
+            top: 30px;
+          }
+        }
+      }
+      .blockquote::before{
+        position: relative;
+        content: "“";
+        color: $primary-color;
+        font-size: 100px;
+        display: block;
+        line-height: 0.1;
+      }
+      h2{
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 140%;
+      }
+    }
+
+    h1 {
+      font-size: $font-xxl;
+      font-weight: 700;
+      line-height: 110%;
+      margin: 0;
+    }
+  }
+
+  &__tags {
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 64px 0;
+
+
+  }
+
+
+  i {
+    color: $primary-color;
+    font-size: xx-large;
+    margin-top: 40px;
+  }
+
+  &__tags {
+    display: inline-block;
+  }
+
+}
+
+
+@media (max-width: 1000px) {
+  .article {
+
+    &__container {
+
+      &--header {
+        margin: 0;
+      }
+
+      &--content {
+        margin: 50px 40px;
+
+        .blockquote {
+          position: relative;
+          padding-right: 40px;
+          blockquote {
+            font-size: 24px;
+            line-height: 120%;
+
+            span{
+              display: block;
+            }
+
+            span::after{
+              content: "”";
+              color: $primary-color;
+              font-size: 64px;
+              line-height: 0.1;
+              position: relative;
+              top: 20px;
+            }
+          }
+        }
+
+        .blockquote::before{
+          position: relative;
+          content: "“";
+          color: $primary-color;
+          font-size: 64px;
+          display: block;
+          line-height: 0.1;
+        }
+        h2{
+          font-size: 24px;
+          line-height: 120%;
+        }
+      }
+    }
+
+    &__tags {
+      order: 2;
+
+      &.caption {
+        p {
+          font-size: 12px;
+          padding: 0 60px;
+        }
+      }
+    }
+
+    .icon-share {
+      order: 1;
+      display: flex;
+      justify-content: end;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    &__title {
+      padding: 0 40px 40px 40px;
+    }
+
+    .col-2 {
+      padding: 0;
+    }
+  }
+
+
+}

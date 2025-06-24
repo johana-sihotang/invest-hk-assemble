@@ -1,0 +1,13 @@
+{
+  "layout": {
+    "template": "index.hbs"
+  },
+  "sitemap": {
+    "loc": "index.html",
+    "lastModified": "2018-11-20T23:55:42+01:00",
+    "changeFrequency": "daily",
+    "priority": "0.5"
+  },
+  "content": {
+  }
+}

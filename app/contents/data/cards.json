@@ -1,0 +1,17 @@
+[
+  {
+    "title": "how can we help?",
+    "description": "We support companies from the\nplanning stage right through to your\nbusiness launch",
+    "icon": "fa fa-chevron-right",
+    "link": "",
+    "color": "red"
+  },
+  {
+    "title": "Subscribe for the latest",
+    "description": "Insights\nSuccess Stories\nUpdates\n",
+    "icon": "fa fa-chevron-right",
+    "link": "",
+    "linkText": "Read More",
+    "color": "yellow"
+  }
+]
