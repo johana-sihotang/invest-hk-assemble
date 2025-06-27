@@ -32,6 +32,12 @@ body.no-scroll {
 
 .col-4{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
+}
+
+.col-4-width{
+    display: grid;
     grid-template-columns: 3fr 2fr 2fr 1fr;
     max-width: 100%;
 }
