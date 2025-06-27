@@ -1,1 +1,0 @@
-$(document).ready(function(){function i(){$(window).width()<1e3?$(".icon-hide").stop(!0,!0).slideUp():$(".icon-hide").stop(!0,!0).slideDown()}i(),$(window).on("resize",i)});
