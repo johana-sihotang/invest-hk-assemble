@@ -14,6 +14,7 @@
           font-size: 40px;
           line-height: 140%;
           font-weight: 400;
+          display: flex;
 
           span::after{
             content: "”";
@@ -22,9 +23,18 @@
             position: relative;
             top: 30px;
           }
+
+          span::before{
+            position: relative;
+            content: "“";
+            color: $primary-color;
+            font-size: 100px;
+            display: block;
+            line-height: 0.1;
+          }
         }
       }
-      .blockquote::before{
+      span::before{
         position: relative;
         content: "“";
         color: $primary-color;
@@ -109,17 +119,19 @@
               position: relative;
               top: 20px;
             }
+
+            span::before{
+              position: relative;
+              content: "“";
+              color: $primary-color;
+              font-size: 64px;
+              display: block;
+              line-height: 0.1;
+            }
           }
         }
 
-        .blockquote::before{
-          position: relative;
-          content: "“";
-          color: $primary-color;
-          font-size: 64px;
-          display: block;
-          line-height: 0.1;
-        }
+
         h2{
           font-size: 24px;
           line-height: 120%;

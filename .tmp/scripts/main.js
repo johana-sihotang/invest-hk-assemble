@@ -3,7 +3,6 @@ const handlebars = require('handlebars');
 //Split content
 handlebars.registerHelper('splitArray', (array, columns) => {
     if (!Array.isArray(array) || typeof columns !== 'number' || columns < 1) {
-        console.warn('splitArray: Invalid array input', array);
         return [];
     }
     const total = array.length;
@@ -32,6 +31,5 @@ handlebars.registerHelper('newlineToBr', function (text) {
 //Upper text
 handlebars.registerHelper('upperText', function (text) {
     if (typeof text !== "string") return text;
-    console.log("text: ", text);
     return new handlebars.SafeString(text.toUpperCase());
 });

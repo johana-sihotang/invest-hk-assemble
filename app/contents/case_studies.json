@@ -1,0 +1,13 @@
+{
+  "layout": {
+    "template": "case_studies.hbs"
+  },
+  "sitemap": {
+    "loc": "case_studies.html",
+    "lastModified": "2018-11-20T23:55:42+01:00",
+    "changeFrequency": "daily",
+    "priority": "0.5"
+  },
+  "content": {
+  }
+}

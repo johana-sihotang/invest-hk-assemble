@@ -117,11 +117,9 @@ app.task('includes', () => {
 app.task('assemble-setup', () => {
   app.partials('app/handlebars/partials/**/*.hbs');
   app.layouts('app/handlebars/layouts/**/*.hbs');
+  app.pages('app/handlebars/pages/**/*.hbs');
   app.data(configPath);
   app.data('app/contents/data/*.json');
-    console.log(require('./app/contents/data/article.json'));
-
-
     app.onLoad(/\.hbs$/, pageData(app));
 
   return app.src('app/contents/*.json')

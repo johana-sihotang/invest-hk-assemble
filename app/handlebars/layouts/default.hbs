@@ -22,6 +22,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <!--icon-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
@@ -33,7 +36,6 @@
 <body >
 
 <div class="max-width">
-    {{> header content=header}}
     <main>
         {% body %}
     </main>
@@ -41,9 +43,6 @@
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 </div>
-
-{{> cards}}
-{{> footer footer=footer.footer}}
 <!-- build:js scripts/jquery.min.js -->
 <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
 <!-- endbuild -->
@@ -54,6 +53,7 @@
 <script type="text/javascript" src="/scripts/humburgerMenu.js"></script>
 <script type="text/javascript" src="/scripts/carousell.js"></script>
 <script type="text/javascript" src="/scripts/news.js"></script>
+<script type="text/javascript" src="/scripts/slicker.js"></script>
 
 <!-- endbuild -->
 
@@ -61,14 +61,6 @@
 <script type="text/javascript" src="/scripts/main-min.js"></script>
 <script type="text/javascript" src="/scripts/main.js"></script>
 <!-- endbuild -->
-
-
 </body>
-
-
-
-
-
-
 </html>
 
